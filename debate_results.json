@@ -1,0 +1,164 @@
+[
+  {
+    "problem_id": "L3_flip_000",
+    "model": "gpt-5",
+    "correctness": 1,
+    "reasoning": 1
+  },
+  {
+    "problem_id": "L3_flip_001",
+    "model": "gpt-5",
+    "correctness": 1,
+    "reasoning": 1
+  },
+  {
+    "problem_id": "L3_flip_002",
+    "model": "gpt-5",
+    "correctness": 1,
+    "reasoning": 1
+  },
+  {
+    "problem_id": "L3_flip_003",
+    "model": "gpt-5",
+    "correctness": 1,
+    "reasoning": 1
+  },
+  {
+    "problem_id": "L3_flip_004",
+    "model": "gpt-5",
+    "correctness": 1,
+    "reasoning": 1
+  },
+  {
+    "problem_id": "L3_flip_005",
+    "model": "gpt-5",
+    "correctness": 0,
+    "reasoning": 0
+  },
+  {
+    "problem_id": "L3_flip_006",
+    "model": "gpt-5",
+    "correctness": 0,
+    "reasoning": 0
+  },
+  {
+    "problem_id": "L3_flip_007",
+    "model": "gpt-5",
+    "agent_n_final": "",
+    "agent_s_final": "",
+    "judge_response": "Increase\n\nSeverity confounds the observational correlation, but the key fact is the adverse causal interaction: assigning more QA engineers directly increases customer complaints. Under an intervention that raises QA staffing (holding severity distribution fixed), the harmful causal effect dominates, so complaints increase.",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_008",
+    "model": "gpt-5",
+    "agent_n_final": "",
+    "agent_s_final": "",
+    "judge_response": "Increase\n\nEven though soil contamination confounds the observational correlation (causing both higher fertiliser use and higher failure), we\u2019re told fertiliser has a genuinely harmful causal effect via an adverse interaction. Under an intervention that increases fertiliser (holding other factors fixed), the crop failure rate will rise.",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_009",
+    "model": "gpt-5",
+    "agent_n_final": "",
+    "agent_s_final": "",
+    "judge_response": "",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_flip_010",
+    "model": "gpt-5",
+    "agent_n_final": "",
+    "agent_s_final": "",
+    "judge_response": "",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_flip_011",
+    "model": "gpt-5",
+    "agent_n_final": "",
+    "agent_s_final": "",
+    "judge_response": "Increase\n\nExplanation: The observed correlation is confounded by storm severity, so it doesn\u2019t by itself imply causation. But you\u2019re given the causal fact that emergency responders actually worsen infrastructure damage via an adverse interaction. Holding storm severity fixed, an intervention that increases responders therefore increases expected damage.",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_012",
+    "model": "gpt-5",
+    "agent_n_final": "",
+    "agent_s_final": "",
+    "judge_response": "Increase\n\nExplanation: The observed positive association is partly due to confounding by earthquake magnitude (bigger quakes cause both more teams and more casualties). However, the problem explicitly states that, beyond this confounding, deploying more rescue teams has a genuinely harmful causal effect due to an adverse interaction. Therefore, under an intentional increase in rescue teams (the interventional effect), casualties would increase.",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_013",
+    "model": "gpt-5",
+    "agent_n_final": "",
+    "agent_s_final": "",
+    "judge_response": "Increase\n\nExplanation: The observed correlation is partly spurious because company debt drives both hiring consultants and layoffs. But under an intervention that increases consultants (holding debt constant), the confounding path is blocked. Since it\u2019s stipulated that consultants causally worsen layoffs via an adverse interaction, the interventional effect is to increase layoffs.",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_014",
+    "model": "gpt-5",
+    "agent_n_final": "",
+    "agent_s_final": "",
+    "judge_response": "",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_med_001",
+    "model": "gpt-5",
+    "agent_n_final": "",
+    "agent_s_final": "",
+    "judge_response": "",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_med_002",
+    "model": "gpt-5",
+    "agent_n_final": "",
+    "agent_s_final": "",
+    "judge_response": "",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_med_003",
+    "model": "gpt-5",
+    "agent_n_final": "",
+    "agent_s_final": "",
+    "judge_response": "",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_med_004",
+    "model": "gpt-5",
+    "agent_n_final": "",
+    "agent_s_final": "",
+    "judge_response": "",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  }
+]
