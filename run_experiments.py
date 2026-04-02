@@ -51,6 +51,8 @@ MODELS = {
                     "label": "Llama 4 Scout"},
     "qwen3-32b":   {"provider": "groq",      "model_id": "qwen/qwen3-32b",
                     "label": "Qwen 3 32B"},
+    "gpt-oss-120b":{"provider": "groq",      "model_id": "openai/gpt-oss-120b",
+                    "label": "GPT-OSS 120B"},
 }
 
 SYSTEM_PROMPT = "Answer the following question."
@@ -640,8 +642,9 @@ def main():
         print(f"\nSaved {len(results)} results to all_results.json")
         compute_and_print(results)
 
-    # Debate
-    print("\n\nMULTI-AGENT DEBATE (20 L3 problems)...")
+    # Debate — only 3 models (different parameter scales)
+    DEBATE_MODELS = ["gpt-5", "llama-70b", "llama-8b"]
+    print(f"\n\nMULTI-AGENT DEBATE (20 L3 problems, {len(DEBATE_MODELS)} models)...")
     l3_subset = [p for p in probs if p["level"] == 3][:20]
     debate_results = []
     debate_lock = threading.Lock()
@@ -665,8 +668,8 @@ def main():
         with print_lock:
             print(f"\n  >>> Debate {MODELS[mk]['label']} DONE")
 
-    with ThreadPoolExecutor(max_workers=6) as executor:
-        futures = {executor.submit(run_debate_model, mk): mk for mk in MODELS}
+    with ThreadPoolExecutor(max_workers=3) as executor:
+        futures = {executor.submit(run_debate_model, mk): mk for mk in DEBATE_MODELS}
         for f in as_completed(futures):
             f.result()
 
