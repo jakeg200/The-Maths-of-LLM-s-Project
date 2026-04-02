@@ -1,0 +1,1759 @@
+[
+  {
+    "id": "L1_original",
+    "level": 1,
+    "mutation_type": "none",
+    "prompt": "A city analysed records of past fires and found that fires where more firefighters were dispatched suffered more property damage. The city council proposes cutting the fire department budget to reduce property damage.\n\nIs the council's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "severity",
+    "reasoning_terms": [
+      "severity",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "third variable"
+    ]
+  },
+  {
+    "id": "L2_000",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A government report examined major storm responses. The data shows that areas with more emergency responders tend to have higher infrastructure damage. A decision-maker proposes reducing emergency responders to reduce infrastructure damage.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "severity",
+    "reasoning_terms": [
+      "severity",
+      "storm",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_001",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A government study examined schools across the country. The data shows that areas with more government funding tend to have higher dropout rates. A decision-maker proposes reducing government funding to reduce dropout rates.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "level",
+    "reasoning_terms": [
+      "level",
+      "neighbourhood",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_002",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A housing authority examined records across its properties. The data shows that areas with more maintenance budget tend to have higher tenant complaints. A decision-maker proposes reducing maintenance budget to reduce tenant complaints.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "deterioration",
+    "reasoning_terms": [
+      "deterioration",
+      "building",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_003",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A transport department reviewed accident data. The data shows that areas with more traffic officers deployed tend to have higher accidents reported. A decision-maker proposes reducing traffic officers deployed to reduce accidents reported.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "congestion",
+    "reasoning_terms": [
+      "congestion",
+      "traffic",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_004",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A tech company reviewed product quality data. The data shows that areas with more QA engineers assigned tend to have higher customer complaints. A decision-maker proposes reducing QA engineers assigned to reduce customer complaints.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "severity",
+    "reasoning_terms": [
+      "severity",
+      "software",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_005",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A business school studied corporate restructuring. The data shows that areas with more consultants hired tend to have higher layoffs. A decision-maker proposes reducing consultants hired to reduce layoffs.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "level",
+    "reasoning_terms": [
+      "level",
+      "company",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_006",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A highways agency reviewed maintenance data. The data shows that areas with more repair crew hours tend to have higher pothole complaints. A decision-maker proposes reducing repair crew hours to reduce pothole complaints.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "deterioration",
+    "reasoning_terms": [
+      "deterioration",
+      "road",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_007",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A hospital reviewed patient records from the past year. The data shows that areas with more medication dosage tend to have higher hospital stay length. A decision-maker proposes reducing medication dosage to reduce hospital stay length.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "severity",
+    "reasoning_terms": [
+      "severity",
+      "patient",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_008",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "An environmental agency studied waterways. The data shows that areas with more water treatment investment tend to have higher fish mortality. A decision-maker proposes reducing water treatment investment to reduce fish mortality.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "level",
+    "reasoning_terms": [
+      "level",
+      "river",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_009",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A government study examined schools across the country. The data shows that areas with more government funding tend to have higher dropout rates. A decision-maker proposes reducing government funding to reduce dropout rates.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "level",
+    "reasoning_terms": [
+      "level",
+      "neighbourhood",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_010",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A transport department reviewed accident data. The data shows that areas with more traffic officers deployed tend to have higher accidents reported. A decision-maker proposes reducing traffic officers deployed to reduce accidents reported.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "congestion",
+    "reasoning_terms": [
+      "congestion",
+      "traffic",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_011",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A national park service reviewed decade-long data. The data shows that areas with more rangers stationed tend to have higher forest hectares burned. A decision-maker proposes reducing rangers stationed to reduce forest hectares burned.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "level",
+    "reasoning_terms": [
+      "level",
+      "wildfire",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_012",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A government study examined schools across the country. The data shows that areas with more government funding tend to have higher dropout rates. A decision-maker proposes reducing government funding to reduce dropout rates.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "level",
+    "reasoning_terms": [
+      "level",
+      "neighbourhood",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_013",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "An agricultural study examined farms in a drought-prone region. The data shows that areas with more fertiliser applied tend to have higher crop failure rate. A decision-maker proposes reducing fertiliser applied to reduce crop failure rate.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "contamination",
+    "reasoning_terms": [
+      "contamination",
+      "soil",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_014",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A government report examined major storm responses. The data shows that areas with more emergency responders tend to have higher infrastructure damage. A decision-maker proposes reducing emergency responders to reduce infrastructure damage.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "severity",
+    "reasoning_terms": [
+      "severity",
+      "storm",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_015",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A national park service reviewed decade-long data. The data shows that areas with more rangers stationed tend to have higher forest hectares burned. A decision-maker proposes reducing rangers stationed to reduce forest hectares burned.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "level",
+    "reasoning_terms": [
+      "level",
+      "wildfire",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_016",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A transport department reviewed accident data. The data shows that areas with more traffic officers deployed tend to have higher accidents reported. A decision-maker proposes reducing traffic officers deployed to reduce accidents reported.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "congestion",
+    "reasoning_terms": [
+      "congestion",
+      "traffic",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_017",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A disaster response agency analysed recent earthquakes. The data shows that areas with more rescue teams deployed tend to have higher casualties. A decision-maker proposes reducing rescue teams deployed to reduce casualties.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "magnitude",
+    "reasoning_terms": [
+      "magnitude",
+      "earthquake",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_018",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A clinical trial examined bacterial infection treatments. The data shows that areas with more antibiotic dosage tend to have higher recovery time. A decision-maker proposes reducing antibiotic dosage to reduce recovery time.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "severity",
+    "reasoning_terms": [
+      "severity",
+      "infection",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_019",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A government study examined schools across the country. The data shows that areas with more government funding tend to have higher dropout rates. A decision-maker proposes reducing government funding to reduce dropout rates.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "level",
+    "reasoning_terms": [
+      "level",
+      "neighbourhood",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_020",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A clinical trial examined bacterial infection treatments. The data shows that areas with more antibiotic dosage tend to have higher recovery time. A decision-maker proposes reducing antibiotic dosage to reduce recovery time.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "severity",
+    "reasoning_terms": [
+      "severity",
+      "infection",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_021",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A business school studied corporate restructuring. The data shows that areas with more consultants hired tend to have higher layoffs. A decision-maker proposes reducing consultants hired to reduce layoffs.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "level",
+    "reasoning_terms": [
+      "level",
+      "company",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_022",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A university examined its tutoring programme. The data shows that areas with more tutoring hours tend to have higher exam failure rate. A decision-maker proposes reducing tutoring hours to reduce exam failure rate.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "attainment",
+    "reasoning_terms": [
+      "attainment",
+      "student",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_023",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "An agricultural study examined farms in a drought-prone region. The data shows that areas with more fertiliser applied tend to have higher crop failure rate. A decision-maker proposes reducing fertiliser applied to reduce crop failure rate.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "contamination",
+    "reasoning_terms": [
+      "contamination",
+      "soil",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_024",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A factory analysed equipment maintenance records. The data shows that areas with more maintenance hours tend to have higher production downtime. A decision-maker proposes reducing maintenance hours to reduce production downtime.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "level",
+    "reasoning_terms": [
+      "level",
+      "machine",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_025",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A university examined its tutoring programme. The data shows that areas with more tutoring hours tend to have higher exam failure rate. A decision-maker proposes reducing tutoring hours to reduce exam failure rate.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "attainment",
+    "reasoning_terms": [
+      "attainment",
+      "student",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_026",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A hospital reviewed patient records from the past year. The data shows that areas with more medication dosage tend to have higher hospital stay length. A decision-maker proposes reducing medication dosage to reduce hospital stay length.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "severity",
+    "reasoning_terms": [
+      "severity",
+      "patient",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_027",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A hospital reviewed patient records from the past year. The data shows that areas with more medication dosage tend to have higher hospital stay length. A decision-maker proposes reducing medication dosage to reduce hospital stay length.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "severity",
+    "reasoning_terms": [
+      "severity",
+      "patient",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_028",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A clinical trial examined bacterial infection treatments. The data shows that areas with more antibiotic dosage tend to have higher recovery time. A decision-maker proposes reducing antibiotic dosage to reduce recovery time.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "severity",
+    "reasoning_terms": [
+      "severity",
+      "infection",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_029",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A government report examined major storm responses. The data shows that areas with more emergency responders tend to have higher infrastructure damage. A decision-maker proposes reducing emergency responders to reduce infrastructure damage.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "severity",
+    "reasoning_terms": [
+      "severity",
+      "storm",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_030",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A clinical trial examined bacterial infection treatments. The data shows that areas with more antibiotic dosage tend to have higher recovery time. A decision-maker proposes reducing antibiotic dosage to reduce recovery time.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "severity",
+    "reasoning_terms": [
+      "severity",
+      "infection",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_031",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A tech company reviewed product quality data. The data shows that areas with more QA engineers assigned tend to have higher customer complaints. A decision-maker proposes reducing QA engineers assigned to reduce customer complaints.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "severity",
+    "reasoning_terms": [
+      "severity",
+      "software",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_032",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A national park service reviewed decade-long data. The data shows that areas with more rangers stationed tend to have higher forest hectares burned. A decision-maker proposes reducing rangers stationed to reduce forest hectares burned.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "level",
+    "reasoning_terms": [
+      "level",
+      "wildfire",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_033",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A factory analysed equipment maintenance records. The data shows that areas with more maintenance hours tend to have higher production downtime. A decision-maker proposes reducing maintenance hours to reduce production downtime.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "level",
+    "reasoning_terms": [
+      "level",
+      "machine",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_034",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A public health study compared regions. The data shows that areas with more doctors per capita tend to have higher disease prevalence. A decision-maker proposes reducing doctors per capita to reduce disease prevalence.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "density",
+    "reasoning_terms": [
+      "density",
+      "population",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_035",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A disaster response agency analysed recent earthquakes. The data shows that areas with more rescue teams deployed tend to have higher casualties. A decision-maker proposes reducing rescue teams deployed to reduce casualties.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "magnitude",
+    "reasoning_terms": [
+      "magnitude",
+      "earthquake",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_036",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A clinical trial examined bacterial infection treatments. The data shows that areas with more antibiotic dosage tend to have higher recovery time. A decision-maker proposes reducing antibiotic dosage to reduce recovery time.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "severity",
+    "reasoning_terms": [
+      "severity",
+      "infection",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_037",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A government report examined major storm responses. The data shows that areas with more emergency responders tend to have higher infrastructure damage. A decision-maker proposes reducing emergency responders to reduce infrastructure damage.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "severity",
+    "reasoning_terms": [
+      "severity",
+      "storm",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_038",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A highways agency reviewed maintenance data. The data shows that areas with more repair crew hours tend to have higher pothole complaints. A decision-maker proposes reducing repair crew hours to reduce pothole complaints.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "deterioration",
+    "reasoning_terms": [
+      "deterioration",
+      "road",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_039",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A disaster response agency analysed recent earthquakes. The data shows that areas with more rescue teams deployed tend to have higher casualties. A decision-maker proposes reducing rescue teams deployed to reduce casualties.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "magnitude",
+    "reasoning_terms": [
+      "magnitude",
+      "earthquake",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_040",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A tech company reviewed product quality data. The data shows that areas with more QA engineers assigned tend to have higher customer complaints. A decision-maker proposes reducing QA engineers assigned to reduce customer complaints.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "severity",
+    "reasoning_terms": [
+      "severity",
+      "software",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_041",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A government study examined schools across the country. The data shows that areas with more government funding tend to have higher dropout rates. A decision-maker proposes reducing government funding to reduce dropout rates.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "level",
+    "reasoning_terms": [
+      "level",
+      "neighbourhood",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_042",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A transport department reviewed accident data. The data shows that areas with more traffic officers deployed tend to have higher accidents reported. A decision-maker proposes reducing traffic officers deployed to reduce accidents reported.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "congestion",
+    "reasoning_terms": [
+      "congestion",
+      "traffic",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_043",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A housing authority examined records across its properties. The data shows that areas with more maintenance budget tend to have higher tenant complaints. A decision-maker proposes reducing maintenance budget to reduce tenant complaints.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "deterioration",
+    "reasoning_terms": [
+      "deterioration",
+      "building",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_044",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A hospital reviewed patient records from the past year. The data shows that areas with more medication dosage tend to have higher hospital stay length. A decision-maker proposes reducing medication dosage to reduce hospital stay length.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "severity",
+    "reasoning_terms": [
+      "severity",
+      "patient",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_045",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A transport department reviewed accident data. The data shows that areas with more traffic officers deployed tend to have higher accidents reported. A decision-maker proposes reducing traffic officers deployed to reduce accidents reported.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "congestion",
+    "reasoning_terms": [
+      "congestion",
+      "traffic",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_046",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A city council analysed policing data across districts. The data shows that areas with more police officers deployed tend to have higher arrests made. A decision-maker proposes reducing police officers deployed to reduce arrests made.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "rate",
+    "reasoning_terms": [
+      "rate",
+      "crime",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_047",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A housing authority examined records across its properties. The data shows that areas with more maintenance budget tend to have higher tenant complaints. A decision-maker proposes reducing maintenance budget to reduce tenant complaints.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "deterioration",
+    "reasoning_terms": [
+      "deterioration",
+      "building",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_048",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A government report examined major storm responses. The data shows that areas with more emergency responders tend to have higher infrastructure damage. A decision-maker proposes reducing emergency responders to reduce infrastructure damage.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "severity",
+    "reasoning_terms": [
+      "severity",
+      "storm",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L2_049",
+    "level": 2,
+    "mutation_type": "surface",
+    "prompt": "A public health study compared regions. The data shows that areas with more doctors per capita tend to have higher disease prevalence. A decision-maker proposes reducing doctors per capita to reduce disease prevalence.\n\nIs the decision-maker's reasoning valid? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "density",
+    "reasoning_terms": [
+      "density",
+      "population",
+      "confound",
+      "common cause",
+      "spurious",
+      "hidden",
+      "driven by"
+    ]
+  },
+  {
+    "id": "L3_flip_000",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "prompt": "A public health study compared regions. The data shows that areas with more doctors per capita tend to have higher disease prevalence. The correlation is confounded by population density, which drives both. However, unlike typical cases, doctors per capita actually makes disease prevalence worse due to an adverse interaction.\n\nIf we deliberately increase doctors per capita, will disease prevalence increase or decrease? Answer Increase or Decrease, then explain.",
+    "correct_binary": "increase",
+    "confounder_name": "density",
+    "reasoning_terms": [
+      "adverse",
+      "worse",
+      "harmful",
+      "makes things worse",
+      "amplif",
+      "exacerbat",
+      "increase damage",
+      "increase disease"
+    ]
+  },
+  {
+    "id": "L3_flip_001",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "prompt": "A transport department reviewed accident data. The data shows that areas with more traffic officers deployed tend to have higher accidents reported. The correlation is confounded by traffic congestion, which drives both. However, unlike typical cases, traffic officers deployed actually makes accidents reported worse due to an adverse interaction.\n\nIf we deliberately increase traffic officers deployed, will accidents reported increase or decrease? Answer Increase or Decrease, then explain.",
+    "correct_binary": "increase",
+    "confounder_name": "congestion",
+    "reasoning_terms": [
+      "adverse",
+      "worse",
+      "harmful",
+      "makes things worse",
+      "amplif",
+      "exacerbat",
+      "increase damage",
+      "increase accidents"
+    ]
+  },
+  {
+    "id": "L3_flip_002",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "prompt": "A housing authority examined records across its properties. The data shows that areas with more maintenance budget tend to have higher tenant complaints. The correlation is confounded by building deterioration, which drives both. However, unlike typical cases, maintenance budget actually makes tenant complaints worse due to an adverse interaction.\n\nIf we deliberately increase maintenance budget, will tenant complaints increase or decrease? Answer Increase or Decrease, then explain.",
+    "correct_binary": "increase",
+    "confounder_name": "deterioration",
+    "reasoning_terms": [
+      "adverse",
+      "worse",
+      "harmful",
+      "makes things worse",
+      "amplif",
+      "exacerbat",
+      "increase damage",
+      "increase tenant"
+    ]
+  },
+  {
+    "id": "L3_flip_003",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "prompt": "An education authority examined outcomes for children with additional needs. The data shows that areas with more specialist support hours tend to have higher school exclusions. The correlation is confounded by child behavioural difficulty, which drives both. However, unlike typical cases, specialist support hours actually makes school exclusions worse due to an adverse interaction.\n\nIf we deliberately increase specialist support hours, will school exclusions increase or decrease? Answer Increase or Decrease, then explain.",
+    "correct_binary": "increase",
+    "confounder_name": "difficulty",
+    "reasoning_terms": [
+      "adverse",
+      "worse",
+      "harmful",
+      "makes things worse",
+      "amplif",
+      "exacerbat",
+      "increase damage",
+      "increase school"
+    ]
+  },
+  {
+    "id": "L3_flip_004",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "prompt": "A government report examined major storm responses. The data shows that areas with more emergency responders tend to have higher infrastructure damage. The correlation is confounded by storm severity, which drives both. However, unlike typical cases, emergency responders actually makes infrastructure damage worse due to an adverse interaction.\n\nIf we deliberately increase emergency responders, will infrastructure damage increase or decrease? Answer Increase or Decrease, then explain.",
+    "correct_binary": "increase",
+    "confounder_name": "severity",
+    "reasoning_terms": [
+      "adverse",
+      "worse",
+      "harmful",
+      "makes things worse",
+      "amplif",
+      "exacerbat",
+      "increase damage",
+      "increase infrastructure"
+    ]
+  },
+  {
+    "id": "L3_flip_005",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "prompt": "A government report examined major storm responses. The data shows that areas with more emergency responders tend to have higher infrastructure damage. The correlation is confounded by storm severity, which drives both. However, unlike typical cases, emergency responders actually makes infrastructure damage worse due to an adverse interaction.\n\nIf we deliberately increase emergency responders, will infrastructure damage increase or decrease? Answer Increase or Decrease, then explain.",
+    "correct_binary": "increase",
+    "confounder_name": "severity",
+    "reasoning_terms": [
+      "adverse",
+      "worse",
+      "harmful",
+      "makes things worse",
+      "amplif",
+      "exacerbat",
+      "increase damage",
+      "increase infrastructure"
+    ]
+  },
+  {
+    "id": "L3_flip_006",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "prompt": "An agricultural study examined farms in a drought-prone region. The data shows that areas with more fertiliser applied tend to have higher crop failure rate. The correlation is confounded by soil contamination, which drives both. However, unlike typical cases, fertiliser applied actually makes crop failure rate worse due to an adverse interaction.\n\nIf we deliberately increase fertiliser applied, will crop failure rate increase or decrease? Answer Increase or Decrease, then explain.",
+    "correct_binary": "increase",
+    "confounder_name": "contamination",
+    "reasoning_terms": [
+      "adverse",
+      "worse",
+      "harmful",
+      "makes things worse",
+      "amplif",
+      "exacerbat",
+      "increase damage",
+      "increase crop"
+    ]
+  },
+  {
+    "id": "L3_flip_007",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "prompt": "A tech company reviewed product quality data. The data shows that areas with more QA engineers assigned tend to have higher customer complaints. The correlation is confounded by software bug severity, which drives both. However, unlike typical cases, QA engineers assigned actually makes customer complaints worse due to an adverse interaction.\n\nIf we deliberately increase QA engineers assigned, will customer complaints increase or decrease? Answer Increase or Decrease, then explain.",
+    "correct_binary": "increase",
+    "confounder_name": "severity",
+    "reasoning_terms": [
+      "adverse",
+      "worse",
+      "harmful",
+      "makes things worse",
+      "amplif",
+      "exacerbat",
+      "increase damage",
+      "increase customer"
+    ]
+  },
+  {
+    "id": "L3_flip_008",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "prompt": "An agricultural study examined farms in a drought-prone region. The data shows that areas with more fertiliser applied tend to have higher crop failure rate. The correlation is confounded by soil contamination, which drives both. However, unlike typical cases, fertiliser applied actually makes crop failure rate worse due to an adverse interaction.\n\nIf we deliberately increase fertiliser applied, will crop failure rate increase or decrease? Answer Increase or Decrease, then explain.",
+    "correct_binary": "increase",
+    "confounder_name": "contamination",
+    "reasoning_terms": [
+      "adverse",
+      "worse",
+      "harmful",
+      "makes things worse",
+      "amplif",
+      "exacerbat",
+      "increase damage",
+      "increase crop"
+    ]
+  },
+  {
+    "id": "L3_flip_009",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "prompt": "A public health study compared regions. The data shows that areas with more doctors per capita tend to have higher disease prevalence. The correlation is confounded by population density, which drives both. However, unlike typical cases, doctors per capita actually makes disease prevalence worse due to an adverse interaction.\n\nIf we deliberately increase doctors per capita, will disease prevalence increase or decrease? Answer Increase or Decrease, then explain.",
+    "correct_binary": "increase",
+    "confounder_name": "density",
+    "reasoning_terms": [
+      "adverse",
+      "worse",
+      "harmful",
+      "makes things worse",
+      "amplif",
+      "exacerbat",
+      "increase damage",
+      "increase disease"
+    ]
+  },
+  {
+    "id": "L3_flip_010",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "prompt": "A factory analysed equipment maintenance records. The data shows that areas with more maintenance hours tend to have higher production downtime. The correlation is confounded by machine wear level, which drives both. However, unlike typical cases, maintenance hours actually makes production downtime worse due to an adverse interaction.\n\nIf we deliberately increase maintenance hours, will production downtime increase or decrease? Answer Increase or Decrease, then explain.",
+    "correct_binary": "increase",
+    "confounder_name": "level",
+    "reasoning_terms": [
+      "adverse",
+      "worse",
+      "harmful",
+      "makes things worse",
+      "amplif",
+      "exacerbat",
+      "increase damage",
+      "increase production"
+    ]
+  },
+  {
+    "id": "L3_flip_011",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "prompt": "A government report examined major storm responses. The data shows that areas with more emergency responders tend to have higher infrastructure damage. The correlation is confounded by storm severity, which drives both. However, unlike typical cases, emergency responders actually makes infrastructure damage worse due to an adverse interaction.\n\nIf we deliberately increase emergency responders, will infrastructure damage increase or decrease? Answer Increase or Decrease, then explain.",
+    "correct_binary": "increase",
+    "confounder_name": "severity",
+    "reasoning_terms": [
+      "adverse",
+      "worse",
+      "harmful",
+      "makes things worse",
+      "amplif",
+      "exacerbat",
+      "increase damage",
+      "increase infrastructure"
+    ]
+  },
+  {
+    "id": "L3_flip_012",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "prompt": "A disaster response agency analysed recent earthquakes. The data shows that areas with more rescue teams deployed tend to have higher casualties. The correlation is confounded by earthquake magnitude, which drives both. However, unlike typical cases, rescue teams deployed actually makes casualties worse due to an adverse interaction.\n\nIf we deliberately increase rescue teams deployed, will casualties increase or decrease? Answer Increase or Decrease, then explain.",
+    "correct_binary": "increase",
+    "confounder_name": "magnitude",
+    "reasoning_terms": [
+      "adverse",
+      "worse",
+      "harmful",
+      "makes things worse",
+      "amplif",
+      "exacerbat",
+      "increase damage",
+      "increase casualties"
+    ]
+  },
+  {
+    "id": "L3_flip_013",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "prompt": "A business school studied corporate restructuring. The data shows that areas with more consultants hired tend to have higher layoffs. The correlation is confounded by company debt level, which drives both. However, unlike typical cases, consultants hired actually makes layoffs worse due to an adverse interaction.\n\nIf we deliberately increase consultants hired, will layoffs increase or decrease? Answer Increase or Decrease, then explain.",
+    "correct_binary": "increase",
+    "confounder_name": "level",
+    "reasoning_terms": [
+      "adverse",
+      "worse",
+      "harmful",
+      "makes things worse",
+      "amplif",
+      "exacerbat",
+      "increase damage",
+      "increase layoffs"
+    ]
+  },
+  {
+    "id": "L3_flip_014",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "prompt": "A clinical trial examined bacterial infection treatments. The data shows that areas with more antibiotic dosage tend to have higher recovery time. The correlation is confounded by infection severity, which drives both. However, unlike typical cases, antibiotic dosage actually makes recovery time worse due to an adverse interaction.\n\nIf we deliberately increase antibiotic dosage, will recovery time increase or decrease? Answer Increase or Decrease, then explain.",
+    "correct_binary": "increase",
+    "confounder_name": "severity",
+    "reasoning_terms": [
+      "adverse",
+      "worse",
+      "harmful",
+      "makes things worse",
+      "amplif",
+      "exacerbat",
+      "increase damage",
+      "increase recovery"
+    ]
+  },
+  {
+    "id": "L3_med_000",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "mediator": "chemical reaction",
+    "prompt": "A law firm analysed its case portfolio. Lawyers assigned does not affect trial duration directly. Instead, it triggers a chemical reaction, which in turn reduces trial duration. Legal case complexity independently drives both lawyers assigned and trial duration.\n\nConsider a specific case where legal case complexity was high, lawyers assigned was provided, and trial duration was moderate. Had lawyers assigned NOT been provided in this specific case, would trial duration have been worse? Answer Yes or No, then explain your reasoning for this specific case.",
+    "correct_binary": "yes",
+    "confounder_name": "complexity",
+    "reasoning_terms": [
+      "this specific",
+      "this case",
+      "this particular",
+      "individual",
+      "counterfactual",
+      "had not",
+      "would have",
+      "chemical"
+    ]
+  },
+  {
+    "id": "L3_med_001",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "mediator": "secondary process",
+    "prompt": "A transport department reviewed accident data. Traffic officers deployed does not affect accidents reported directly. Instead, it triggers a secondary process, which in turn reduces accidents reported. Traffic congestion independently drives both traffic officers deployed and accidents reported.\n\nConsider a specific case where traffic congestion was high, traffic officers deployed was provided, and accidents reported was moderate. Had traffic officers deployed NOT been provided in this specific case, would accidents reported have been worse? Answer Yes or No, then explain your reasoning for this specific case.",
+    "correct_binary": "yes",
+    "confounder_name": "congestion",
+    "reasoning_terms": [
+      "this specific",
+      "this case",
+      "this particular",
+      "individual",
+      "counterfactual",
+      "had not",
+      "would have",
+      "secondary"
+    ]
+  },
+  {
+    "id": "L3_med_002",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "mediator": "secondary process",
+    "prompt": "A government study examined schools across the country. Government funding does not affect dropout rates directly. Instead, it triggers a secondary process, which in turn reduces dropout rates. Neighbourhood poverty level independently drives both government funding and dropout rates.\n\nConsider a specific case where neighbourhood poverty level was high, government funding was provided, and dropout rates was moderate. Had government funding NOT been provided in this specific case, would dropout rates have been worse? Answer Yes or No, then explain your reasoning for this specific case.",
+    "correct_binary": "yes",
+    "confounder_name": "level",
+    "reasoning_terms": [
+      "this specific",
+      "this case",
+      "this particular",
+      "individual",
+      "counterfactual",
+      "had not",
+      "would have",
+      "secondary"
+    ]
+  },
+  {
+    "id": "L3_med_003",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "mediator": "regulatory cascade",
+    "prompt": "A university examined its tutoring programme. Tutoring hours does not affect exam failure rate directly. Instead, it triggers a regulatory cascade, which in turn reduces exam failure rate. Student prior attainment independently drives both tutoring hours and exam failure rate.\n\nConsider a specific case where student prior attainment was high, tutoring hours was provided, and exam failure rate was moderate. Had tutoring hours NOT been provided in this specific case, would exam failure rate have been worse? Answer Yes or No, then explain your reasoning for this specific case.",
+    "correct_binary": "yes",
+    "confounder_name": "attainment",
+    "reasoning_terms": [
+      "this specific",
+      "this case",
+      "this particular",
+      "individual",
+      "counterfactual",
+      "had not",
+      "would have",
+      "regulatory"
+    ]
+  },
+  {
+    "id": "L3_med_004",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "mediator": "chemical reaction",
+    "prompt": "A housing authority examined records across its properties. Maintenance budget does not affect tenant complaints directly. Instead, it triggers a chemical reaction, which in turn reduces tenant complaints. Building deterioration independently drives both maintenance budget and tenant complaints.\n\nConsider a specific case where building deterioration was high, maintenance budget was provided, and tenant complaints was moderate. Had maintenance budget NOT been provided in this specific case, would tenant complaints have been worse? Answer Yes or No, then explain your reasoning for this specific case.",
+    "correct_binary": "yes",
+    "confounder_name": "deterioration",
+    "reasoning_terms": [
+      "this specific",
+      "this case",
+      "this particular",
+      "individual",
+      "counterfactual",
+      "had not",
+      "would have",
+      "chemical"
+    ]
+  },
+  {
+    "id": "L3_med_005",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "mediator": "regulatory cascade",
+    "prompt": "A transport department reviewed accident data. Traffic officers deployed does not affect accidents reported directly. Instead, it triggers a regulatory cascade, which in turn reduces accidents reported. Traffic congestion independently drives both traffic officers deployed and accidents reported.\n\nConsider a specific case where traffic congestion was high, traffic officers deployed was provided, and accidents reported was moderate. Had traffic officers deployed NOT been provided in this specific case, would accidents reported have been worse? Answer Yes or No, then explain your reasoning for this specific case.",
+    "correct_binary": "yes",
+    "confounder_name": "congestion",
+    "reasoning_terms": [
+      "this specific",
+      "this case",
+      "this particular",
+      "individual",
+      "counterfactual",
+      "had not",
+      "would have",
+      "regulatory"
+    ]
+  },
+  {
+    "id": "L3_med_006",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "mediator": "regulatory cascade",
+    "prompt": "An education authority examined outcomes for children with additional needs. Specialist support hours does not affect school exclusions directly. Instead, it triggers a regulatory cascade, which in turn reduces school exclusions. Child behavioural difficulty independently drives both specialist support hours and school exclusions.\n\nConsider a specific case where child behavioural difficulty was high, specialist support hours was provided, and school exclusions was moderate. Had specialist support hours NOT been provided in this specific case, would school exclusions have been worse? Answer Yes or No, then explain your reasoning for this specific case.",
+    "correct_binary": "yes",
+    "confounder_name": "difficulty",
+    "reasoning_terms": [
+      "this specific",
+      "this case",
+      "this particular",
+      "individual",
+      "counterfactual",
+      "had not",
+      "would have",
+      "regulatory"
+    ]
+  },
+  {
+    "id": "L3_med_007",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "mediator": "compensatory mechanism",
+    "prompt": "A highways agency reviewed maintenance data. Repair crew hours does not affect pothole complaints directly. Instead, it triggers a compensatory mechanism, which in turn reduces pothole complaints. Road surface deterioration independently drives both repair crew hours and pothole complaints.\n\nConsider a specific case where road surface deterioration was high, repair crew hours was provided, and pothole complaints was moderate. Had repair crew hours NOT been provided in this specific case, would pothole complaints have been worse? Answer Yes or No, then explain your reasoning for this specific case.",
+    "correct_binary": "yes",
+    "confounder_name": "deterioration",
+    "reasoning_terms": [
+      "this specific",
+      "this case",
+      "this particular",
+      "individual",
+      "counterfactual",
+      "had not",
+      "would have",
+      "compensatory"
+    ]
+  },
+  {
+    "id": "L3_med_008",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "mediator": "inflammatory response",
+    "prompt": "A university examined its tutoring programme. Tutoring hours does not affect exam failure rate directly. Instead, it triggers a inflammatory response, which in turn reduces exam failure rate. Student prior attainment independently drives both tutoring hours and exam failure rate.\n\nConsider a specific case where student prior attainment was high, tutoring hours was provided, and exam failure rate was moderate. Had tutoring hours NOT been provided in this specific case, would exam failure rate have been worse? Answer Yes or No, then explain your reasoning for this specific case.",
+    "correct_binary": "yes",
+    "confounder_name": "attainment",
+    "reasoning_terms": [
+      "this specific",
+      "this case",
+      "this particular",
+      "individual",
+      "counterfactual",
+      "had not",
+      "would have",
+      "inflammatory"
+    ]
+  },
+  {
+    "id": "L3_med_009",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "mediator": "immune response",
+    "prompt": "A business school studied corporate restructuring. Consultants hired does not affect layoffs directly. Instead, it triggers a immune response, which in turn reduces layoffs. Company debt level independently drives both consultants hired and layoffs.\n\nConsider a specific case where company debt level was high, consultants hired was provided, and layoffs was moderate. Had consultants hired NOT been provided in this specific case, would layoffs have been worse? Answer Yes or No, then explain your reasoning for this specific case.",
+    "correct_binary": "yes",
+    "confounder_name": "level",
+    "reasoning_terms": [
+      "this specific",
+      "this case",
+      "this particular",
+      "individual",
+      "counterfactual",
+      "had not",
+      "would have",
+      "immune"
+    ]
+  },
+  {
+    "id": "L3_med_010",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "mediator": "chemical reaction",
+    "prompt": "A public health study compared regions. Doctors per capita does not affect disease prevalence directly. Instead, it triggers a chemical reaction, which in turn reduces disease prevalence. Population density independently drives both doctors per capita and disease prevalence.\n\nConsider a specific case where population density was high, doctors per capita was provided, and disease prevalence was moderate. Had doctors per capita NOT been provided in this specific case, would disease prevalence have been worse? Answer Yes or No, then explain your reasoning for this specific case.",
+    "correct_binary": "yes",
+    "confounder_name": "density",
+    "reasoning_terms": [
+      "this specific",
+      "this case",
+      "this particular",
+      "individual",
+      "counterfactual",
+      "had not",
+      "would have",
+      "chemical"
+    ]
+  },
+  {
+    "id": "L3_med_011",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "mediator": "inflammatory response",
+    "prompt": "An education authority examined outcomes for children with additional needs. Specialist support hours does not affect school exclusions directly. Instead, it triggers a inflammatory response, which in turn reduces school exclusions. Child behavioural difficulty independently drives both specialist support hours and school exclusions.\n\nConsider a specific case where child behavioural difficulty was high, specialist support hours was provided, and school exclusions was moderate. Had specialist support hours NOT been provided in this specific case, would school exclusions have been worse? Answer Yes or No, then explain your reasoning for this specific case.",
+    "correct_binary": "yes",
+    "confounder_name": "difficulty",
+    "reasoning_terms": [
+      "this specific",
+      "this case",
+      "this particular",
+      "individual",
+      "counterfactual",
+      "had not",
+      "would have",
+      "inflammatory"
+    ]
+  },
+  {
+    "id": "L3_med_012",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "mediator": "feedback mechanism",
+    "prompt": "A social policy institute examined 200 local authorities. Welfare spending does not affect homelessness rate directly. Instead, it triggers a feedback mechanism, which in turn reduces homelessness rate. Unemployment rate independently drives both welfare spending and homelessness rate.\n\nConsider a specific case where unemployment rate was high, welfare spending was provided, and homelessness rate was moderate. Had welfare spending NOT been provided in this specific case, would homelessness rate have been worse? Answer Yes or No, then explain your reasoning for this specific case.",
+    "correct_binary": "yes",
+    "confounder_name": "rate",
+    "reasoning_terms": [
+      "this specific",
+      "this case",
+      "this particular",
+      "individual",
+      "counterfactual",
+      "had not",
+      "would have",
+      "feedback"
+    ]
+  },
+  {
+    "id": "L3_rev_000",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "prompt": "A housing authority examined records across its properties. The data shows that areas with more maintenance budget tend to have higher tenant complaints. However, maintenance budget does not cause tenant complaints --- it merely detects or reveals pre-existing tenant complaints that would have occurred regardless.\n\nWould reducing maintenance budget reduce the actual amount of tenant complaints? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "deterioration",
+    "reasoning_terms": [
+      "detect",
+      "reveal",
+      "does not cause",
+      "not the same as caus",
+      "would still",
+      "regardless",
+      "observation"
+    ]
+  },
+  {
+    "id": "L3_rev_001",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "prompt": "A transport department reviewed accident data. The data shows that areas with more traffic officers deployed tend to have higher accidents reported. However, traffic officers deployed does not cause accidents reported --- it merely detects or reveals pre-existing accidents reported that would have occurred regardless.\n\nWould reducing traffic officers deployed reduce the actual amount of accidents reported? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "congestion",
+    "reasoning_terms": [
+      "detect",
+      "reveal",
+      "does not cause",
+      "not the same as caus",
+      "would still",
+      "regardless",
+      "observation"
+    ]
+  },
+  {
+    "id": "L3_rev_002",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "prompt": "A disaster response agency analysed recent earthquakes. The data shows that areas with more rescue teams deployed tend to have higher casualties. However, rescue teams deployed does not cause casualties --- it merely detects or reveals pre-existing casualties that would have occurred regardless.\n\nWould reducing rescue teams deployed reduce the actual amount of casualties? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "magnitude",
+    "reasoning_terms": [
+      "detect",
+      "reveal",
+      "does not cause",
+      "not the same as caus",
+      "would still",
+      "regardless",
+      "observation"
+    ]
+  },
+  {
+    "id": "L3_rev_003",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "prompt": "A housing authority examined records across its properties. The data shows that areas with more maintenance budget tend to have higher tenant complaints. However, maintenance budget does not cause tenant complaints --- it merely detects or reveals pre-existing tenant complaints that would have occurred regardless.\n\nWould reducing maintenance budget reduce the actual amount of tenant complaints? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "deterioration",
+    "reasoning_terms": [
+      "detect",
+      "reveal",
+      "does not cause",
+      "not the same as caus",
+      "would still",
+      "regardless",
+      "observation"
+    ]
+  },
+  {
+    "id": "L3_rev_004",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "prompt": "A disaster response agency analysed recent earthquakes. The data shows that areas with more rescue teams deployed tend to have higher casualties. However, rescue teams deployed does not cause casualties --- it merely detects or reveals pre-existing casualties that would have occurred regardless.\n\nWould reducing rescue teams deployed reduce the actual amount of casualties? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "magnitude",
+    "reasoning_terms": [
+      "detect",
+      "reveal",
+      "does not cause",
+      "not the same as caus",
+      "would still",
+      "regardless",
+      "observation"
+    ]
+  },
+  {
+    "id": "L3_rev_005",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "prompt": "A highways agency reviewed maintenance data. The data shows that areas with more repair crew hours tend to have higher pothole complaints. However, repair crew hours does not cause pothole complaints --- it merely detects or reveals pre-existing pothole complaints that would have occurred regardless.\n\nWould reducing repair crew hours reduce the actual amount of pothole complaints? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "deterioration",
+    "reasoning_terms": [
+      "detect",
+      "reveal",
+      "does not cause",
+      "not the same as caus",
+      "would still",
+      "regardless",
+      "observation"
+    ]
+  },
+  {
+    "id": "L3_rev_006",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "prompt": "A public health study compared regions. The data shows that areas with more doctors per capita tend to have higher disease prevalence. However, doctors per capita does not cause disease prevalence --- it merely detects or reveals pre-existing disease prevalence that would have occurred regardless.\n\nWould reducing doctors per capita reduce the actual amount of disease prevalence? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "density",
+    "reasoning_terms": [
+      "detect",
+      "reveal",
+      "does not cause",
+      "not the same as caus",
+      "would still",
+      "regardless",
+      "observation"
+    ]
+  },
+  {
+    "id": "L3_rev_007",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "prompt": "A transport department reviewed accident data. The data shows that areas with more traffic officers deployed tend to have higher accidents reported. However, traffic officers deployed does not cause accidents reported --- it merely detects or reveals pre-existing accidents reported that would have occurred regardless.\n\nWould reducing traffic officers deployed reduce the actual amount of accidents reported? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "congestion",
+    "reasoning_terms": [
+      "detect",
+      "reveal",
+      "does not cause",
+      "not the same as caus",
+      "would still",
+      "regardless",
+      "observation"
+    ]
+  },
+  {
+    "id": "L3_rev_008",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "prompt": "A factory analysed equipment maintenance records. The data shows that areas with more maintenance hours tend to have higher production downtime. However, maintenance hours does not cause production downtime --- it merely detects or reveals pre-existing production downtime that would have occurred regardless.\n\nWould reducing maintenance hours reduce the actual amount of production downtime? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "level",
+    "reasoning_terms": [
+      "detect",
+      "reveal",
+      "does not cause",
+      "not the same as caus",
+      "would still",
+      "regardless",
+      "observation"
+    ]
+  },
+  {
+    "id": "L3_rev_009",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "prompt": "A national park service reviewed decade-long data. The data shows that areas with more rangers stationed tend to have higher forest hectares burned. However, rangers stationed does not cause forest hectares burned --- it merely detects or reveals pre-existing forest hectares burned that would have occurred regardless.\n\nWould reducing rangers stationed reduce the actual amount of forest hectares burned? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "level",
+    "reasoning_terms": [
+      "detect",
+      "reveal",
+      "does not cause",
+      "not the same as caus",
+      "would still",
+      "regardless",
+      "observation"
+    ]
+  },
+  {
+    "id": "L3_rev_010",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "prompt": "A hospital reviewed patient records from the past year. The data shows that areas with more medication dosage tend to have higher hospital stay length. However, medication dosage does not cause hospital stay length --- it merely detects or reveals pre-existing hospital stay length that would have occurred regardless.\n\nWould reducing medication dosage reduce the actual amount of hospital stay length? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "severity",
+    "reasoning_terms": [
+      "detect",
+      "reveal",
+      "does not cause",
+      "not the same as caus",
+      "would still",
+      "regardless",
+      "observation"
+    ]
+  },
+  {
+    "id": "L3_rev_011",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "prompt": "A government study examined schools across the country. The data shows that areas with more government funding tend to have higher dropout rates. However, government funding does not cause dropout rates --- it merely detects or reveals pre-existing dropout rates that would have occurred regardless.\n\nWould reducing government funding reduce the actual amount of dropout rates? Answer Yes or No, then explain.",
+    "correct_binary": "no",
+    "confounder_name": "level",
+    "reasoning_terms": [
+      "detect",
+      "reveal",
+      "does not cause",
+      "not the same as caus",
+      "would still",
+      "regardless",
+      "observation"
+    ]
+  },
+  {
+    "id": "L3_num_000",
+    "level": 3,
+    "mutation_type": "numerical",
+    "prompt": "Consider a system with three variables S, F, and D:\n  S = U_S (exogenous, takes values {1, 2, 4} equally)\n  F = 1S\n  D = 3S - 2F\n\nQ1: What is Cov(F, D)?\nQ2: If we intervene to set F = 6 (removing the equation F = 1S), what is E[D | do(F = 6)]?\n\nGive numerical answers.",
+    "correct_binary": null,
+    "correct_cov": 1.5555555555555556,
+    "correct_int": -5.0,
+    "confounder_name": null,
+    "reasoning_terms": [
+      "do(",
+      "intervene",
+      "remov",
+      "sever",
+      "structural equation"
+    ]
+  },
+  {
+    "id": "L3_num_001",
+    "level": 3,
+    "mutation_type": "numerical",
+    "prompt": "Consider a system with three variables S, F, and D:\n  S = U_S (exogenous, takes values {1, 3, 5} equally)\n  F = 3S\n  D = 3S - 1F\n\nQ1: What is Cov(F, D)?\nQ2: If we intervene to set F = 4 (removing the equation F = 3S), what is E[D | do(F = 4)]?\n\nGive numerical answers.",
+    "correct_binary": null,
+    "correct_cov": 0.0,
+    "correct_int": 5.0,
+    "confounder_name": null,
+    "reasoning_terms": [
+      "do(",
+      "intervene",
+      "remov",
+      "sever",
+      "structural equation"
+    ]
+  },
+  {
+    "id": "L3_num_002",
+    "level": 3,
+    "mutation_type": "numerical",
+    "prompt": "Consider a system with three variables S, F, and D:\n  S = U_S (exogenous, takes values {1, 2, 3} equally)\n  F = 3S\n  D = 4S - 1F\n\nQ1: What is Cov(F, D)?\nQ2: If we intervene to set F = 6 (removing the equation F = 3S), what is E[D | do(F = 6)]?\n\nGive numerical answers.",
+    "correct_binary": null,
+    "correct_cov": 2.0,
+    "correct_int": 2.0,
+    "confounder_name": null,
+    "reasoning_terms": [
+      "do(",
+      "intervene",
+      "remov",
+      "sever",
+      "structural equation"
+    ]
+  },
+  {
+    "id": "L3_num_003",
+    "level": 3,
+    "mutation_type": "numerical",
+    "prompt": "Consider a system with three variables S, F, and D:\n  S = U_S (exogenous, takes values {1, 4, 5} equally)\n  F = 3S\n  D = 2S - 2F\n\nQ1: What is Cov(F, D)?\nQ2: If we intervene to set F = 4 (removing the equation F = 3S), what is E[D | do(F = 4)]?\n\nGive numerical answers.",
+    "correct_binary": null,
+    "correct_cov": -34.666666666666664,
+    "correct_int": -1.333333333333333,
+    "confounder_name": null,
+    "reasoning_terms": [
+      "do(",
+      "intervene",
+      "remov",
+      "sever",
+      "structural equation"
+    ]
+  },
+  {
+    "id": "L3_num_004",
+    "level": 3,
+    "mutation_type": "numerical",
+    "prompt": "Consider a system with three variables S, F, and D:\n  S = U_S (exogenous, takes values {1, 2, 4} equally)\n  F = 2S\n  D = 2S - 1F\n\nQ1: What is Cov(F, D)?\nQ2: If we intervene to set F = 6 (removing the equation F = 2S), what is E[D | do(F = 6)]?\n\nGive numerical answers.",
+    "correct_binary": null,
+    "correct_cov": 0.0,
+    "correct_int": -1.333333333333333,
+    "confounder_name": null,
+    "reasoning_terms": [
+      "do(",
+      "intervene",
+      "remov",
+      "sever",
+      "structural equation"
+    ]
+  },
+  {
+    "id": "L3_num_005",
+    "level": 3,
+    "mutation_type": "numerical",
+    "prompt": "Consider a system with three variables S, F, and D:\n  S = U_S (exogenous, takes values {2, 3, 4} equally)\n  F = 2S\n  D = 2S - 1F\n\nQ1: What is Cov(F, D)?\nQ2: If we intervene to set F = 2 (removing the equation F = 2S), what is E[D | do(F = 2)]?\n\nGive numerical answers.",
+    "correct_binary": null,
+    "correct_cov": 0.0,
+    "correct_int": 4.0,
+    "confounder_name": null,
+    "reasoning_terms": [
+      "do(",
+      "intervene",
+      "remov",
+      "sever",
+      "structural equation"
+    ]
+  },
+  {
+    "id": "L3_num_006",
+    "level": 3,
+    "mutation_type": "numerical",
+    "prompt": "Consider a system with three variables S, F, and D:\n  S = U_S (exogenous, takes values {2, 3, 5} equally)\n  F = 2S\n  D = 4S - 2F\n\nQ1: What is Cov(F, D)?\nQ2: If we intervene to set F = 4 (removing the equation F = 2S), what is E[D | do(F = 4)]?\n\nGive numerical answers.",
+    "correct_binary": null,
+    "correct_cov": 0.0,
+    "correct_int": 5.333333333333334,
+    "confounder_name": null,
+    "reasoning_terms": [
+      "do(",
+      "intervene",
+      "remov",
+      "sever",
+      "structural equation"
+    ]
+  },
+  {
+    "id": "L3_num_007",
+    "level": 3,
+    "mutation_type": "numerical",
+    "prompt": "Consider a system with three variables S, F, and D:\n  S = U_S (exogenous, takes values {1, 4, 5} equally)\n  F = 2S\n  D = 4S - 2F\n\nQ1: What is Cov(F, D)?\nQ2: If we intervene to set F = 2 (removing the equation F = 2S), what is E[D | do(F = 2)]?\n\nGive numerical answers.",
+    "correct_binary": null,
+    "correct_cov": 0.0,
+    "correct_int": 9.333333333333334,
+    "confounder_name": null,
+    "reasoning_terms": [
+      "do(",
+      "intervene",
+      "remov",
+      "sever",
+      "structural equation"
+    ]
+  },
+  {
+    "id": "L3_num_008",
+    "level": 3,
+    "mutation_type": "numerical",
+    "prompt": "Consider a system with three variables S, F, and D:\n  S = U_S (exogenous, takes values {1, 2, 3} equally)\n  F = 1S\n  D = 2S - 2F\n\nQ1: What is Cov(F, D)?\nQ2: If we intervene to set F = 2 (removing the equation F = 1S), what is E[D | do(F = 2)]?\n\nGive numerical answers.",
+    "correct_binary": null,
+    "correct_cov": 0.0,
+    "correct_int": 0.0,
+    "confounder_name": null,
+    "reasoning_terms": [
+      "do(",
+      "intervene",
+      "remov",
+      "sever",
+      "structural equation"
+    ]
+  },
+  {
+    "id": "L3_num_009",
+    "level": 3,
+    "mutation_type": "numerical",
+    "prompt": "Consider a system with three variables S, F, and D:\n  S = U_S (exogenous, takes values {1, 2, 4} equally)\n  F = 1S\n  D = 2S - 1F\n\nQ1: What is Cov(F, D)?\nQ2: If we intervene to set F = 4 (removing the equation F = 1S), what is E[D | do(F = 4)]?\n\nGive numerical answers.",
+    "correct_binary": null,
+    "correct_cov": 1.5555555555555556,
+    "correct_int": 0.666666666666667,
+    "confounder_name": null,
+    "reasoning_terms": [
+      "do(",
+      "intervene",
+      "remov",
+      "sever",
+      "structural equation"
+    ]
+  }
+]

@@ -22,6 +22,8 @@ import json, random, time, os, re, argparse
 import numpy as np
 from collections import defaultdict
 from scipy import stats as sp_stats
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import threading
 
 # ================================================================
 # CONFIG — paste your keys here or use environment variables
@@ -35,16 +37,20 @@ GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY", "YOUR_KEY_HERE")
 MODELS = {
     "gpt-5":       {"provider": "openai",    "model_id": "gpt-5",
                     "label": "GPT-5"},
-    "claude":      {"provider": "anthropic", "model_id": "claude-sonnet-4-20250514",
-                    "label": "Claude Sonnet"},
-    "gemini":      {"provider": "google",    "model_id": "gemini-2.5-pro",
-                    "label": "Gemini 2.5 Pro"},
+    # "claude":    {"provider": "anthropic", "model_id": "claude-sonnet-4-20250514",
+    #               "label": "Claude Sonnet"},  # credits exhausted
+    # "gemini":    {"provider": "google",    "model_id": "gemini-2.5-pro",
+    #               "label": "Gemini 2.5 Pro"},  # API key 403
     "gpt-4o-mini": {"provider": "openai",    "model_id": "gpt-4o-mini-2024-07-18",
                     "label": "GPT-4o-mini"},
     "llama-70b":   {"provider": "groq",      "model_id": "llama-3.3-70b-versatile",
                     "label": "Llama 70B"},
-    "llama-8b":    {"provider": "groq",      "model_id": "llama-3.2-8b-preview",
+    "llama-8b":    {"provider": "groq",      "model_id": "llama-3.1-8b-instant",
                     "label": "Llama 8B"},
+    "llama4-scout":{"provider": "groq",      "model_id": "meta-llama/llama-4-scout-17b-16e-instruct",
+                    "label": "Llama 4 Scout"},
+    "qwen3-32b":   {"provider": "groq",      "model_id": "qwen/qwen3-32b",
+                    "label": "Qwen 3 32B"},
 }
 
 SYSTEM_PROMPT = "Answer the following question."
@@ -417,13 +423,13 @@ def run_debate(problem, model_key, rounds=3):
                      f"Respond and defend your position.")
         resp_n = call_model(msg_n, model_key, sys_n)
         hist_n.append(resp_n)
-        time.sleep(1)
+        time.sleep(0.2)
 
         msg_s = (f"Your opponent argued:\n{resp_n}\n\n"
                  f"Respond and defend your causal analysis position.")
         resp_s = call_model(msg_s, model_key, sys_s)
         hist_s.append(resp_s)
-        time.sleep(1)
+        time.sleep(0.2)
 
     # Judge
     judge_msg = (
@@ -583,28 +589,51 @@ def main():
     # Main experiments
     if not args.debate:
         results = []
-        for mk in MODELS:
-            print(f"\n{MODELS[mk]['label']}:")
+        results_lock = threading.Lock()
+        print_lock = threading.Lock()
+
+        def run_model(mk):
+            """Run all problems for one model."""
+            model_results = []
+            consecutive_errors = 0
+            with print_lock:
+                print(f"\n{MODELS[mk]['label']}:")
             for i, p in enumerate(probs):
-                print(f"  [{i+1}/{len(probs)}] {p['id']}", end=" ")
                 try:
                     resp = call_model(p["prompt"], mk)
                     sc = auto_score(p, resp)
-                    results.append({
+                    rec = {
                         "problem_id": p["id"], "level": p["level"],
                         "mutation_type": p.get("mutation_type", "none"),
                         "model": mk, "response": resp, **sc,
-                    })
-                    print(f"C={sc['correctness']} R={sc['reasoning']}")
-                    time.sleep(0.5)
+                    }
+                    model_results.append(rec)
+                    consecutive_errors = 0
+                    with print_lock:
+                        print(f"  {MODELS[mk]['label']} [{i+1}/{len(probs)}] {p['id']} C={sc['correctness']} R={sc['reasoning']}")
                 except Exception as e:
-                    print(f"ERROR: {e}")
-                    results.append({
+                    consecutive_errors += 1
+                    with print_lock:
+                        print(f"  {MODELS[mk]['label']} [{i+1}/{len(probs)}] {p['id']} ERROR: {e}")
+                    model_results.append({
                         "problem_id": p["id"], "level": p["level"],
                         "mutation_type": p.get("mutation_type", "none"),
                         "model": mk, "response": str(e),
                         "correctness": 0, "reasoning": 0, "total": 0,
                     })
+                    if consecutive_errors >= 5:
+                        with print_lock:
+                            print(f"  {MODELS[mk]['label']} >>> SKIPPING remaining (5 consecutive errors)")
+                        break
+            with results_lock:
+                results.extend(model_results)
+            with print_lock:
+                print(f"\n  >>> {MODELS[mk]['label']} DONE ({len(model_results)} results)")
+
+        with ThreadPoolExecutor(max_workers=6) as executor:
+            futures = {executor.submit(run_model, mk): mk for mk in MODELS}
+            for f in as_completed(futures):
+                f.result()  # propagate exceptions
 
         with open("all_results.json", "w") as f:
             json.dump(results, f, indent=2)
@@ -615,18 +644,31 @@ def main():
     print("\n\nMULTI-AGENT DEBATE (20 L3 problems)...")
     l3_subset = [p for p in probs if p["level"] == 3][:20]
     debate_results = []
+    debate_lock = threading.Lock()
 
-    for mk in MODELS:
-        print(f"\n  {MODELS[mk]['label']}:")
+    def run_debate_model(mk):
+        """Run all debate problems for one model."""
+        model_debate = []
+        with print_lock:
+            print(f"\n  Debate {MODELS[mk]['label']}:")
         for p in l3_subset:
-            print(f"    {p['id']}", end=" ")
             try:
                 r = run_debate(p, mk)
-                debate_results.append(r)
-                print(f"C={r['correctness']} R={r['reasoning']}")
+                model_debate.append(r)
+                with print_lock:
+                    print(f"    Debate {MODELS[mk]['label']} {p['id']} C={r['correctness']} R={r['reasoning']}")
             except Exception as e:
-                print(f"ERROR: {e}")
-            time.sleep(1)
+                with print_lock:
+                    print(f"    Debate {MODELS[mk]['label']} {p['id']} ERROR: {e}")
+        with debate_lock:
+            debate_results.extend(model_debate)
+        with print_lock:
+            print(f"\n  >>> Debate {MODELS[mk]['label']} DONE")
+
+    with ThreadPoolExecutor(max_workers=6) as executor:
+        futures = {executor.submit(run_debate_model, mk): mk for mk in MODELS}
+        for f in as_completed(futures):
+            f.result()
 
     with open("debate_results.json", "w") as f:
         json.dump(debate_results, f, indent=2)
