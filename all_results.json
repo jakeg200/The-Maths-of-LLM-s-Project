@@ -1,0 +1,7062 @@
+[
+  {
+    "problem_id": "L1_original",
+    "level": 1,
+    "mutation_type": "none",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L1_original",
+    "level": 1,
+    "mutation_type": "none",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L1_original",
+    "level": 1,
+    "mutation_type": "none",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_000",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L1_original",
+    "level": 1,
+    "mutation_type": "none",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_000",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_000",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_001",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_001",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_002",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L1_original",
+    "level": 1,
+    "mutation_type": "none",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_001",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_000",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_003",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_002",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_002",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_004",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_003",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_005",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_003",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_006",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_001",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L2_000",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_007",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_004",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L2_004",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_008",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_009",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L1_original",
+    "level": 1,
+    "mutation_type": "none",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_002",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_005",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L2_010",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_005",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_011",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_001",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_006",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_006",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_012",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_003",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L2_013",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_007",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_007",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_002",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_004",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L2_008",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L2_008",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_014",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_009",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_009",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L2_005",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L2_010",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_010",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_003",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_011",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_015",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_011",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_006",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L2_012",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_012",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_007",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_013",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_004",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_013",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L2_014",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_008",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_015",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_014",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L2_016",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_015",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_016",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_016",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_000",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_005",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_017",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_017",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_009",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_006",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_017",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_018",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_007",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_018",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_018",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_019",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_008",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_010",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L2_019",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_001",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_009",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_019",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_020",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_010",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_020",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_020",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_021",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_011",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_021",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_011",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_021",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L2_012",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_022",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_022",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_013",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_002",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_022",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_012",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_023",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_014",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_023",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_015",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_023",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L2_024",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_024",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_025",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_016",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_013",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_024",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L2_025",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_017",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_003",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_026",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_025",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_026",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_018",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_027",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_014",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_026",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_019",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_027",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_028",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_020",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_027",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_028",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_021",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_029",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_015",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L2_029",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_028",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L2_022",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_030",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_004",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_023",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_030",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_029",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_031",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_024",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_031",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_030",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_032",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_016",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L2_025",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_032",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_031",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L2_033",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_026",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_005",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_034",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_033",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_017",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_027",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_032",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L2_034",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_035",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_028",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_033",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_036",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_018",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_035",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_029",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_037",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_034",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L2_030",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_036",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_031",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_019",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_035",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_006",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_038",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_037",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_032",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_036",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_039",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_038",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_020",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_033",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_040",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_037",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_039",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_034",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_035",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_038",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_041",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_040",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_036",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_039",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_007",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_021",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L2_041",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_042",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_037",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_040",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L2_038",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_042",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_043",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_022",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_039",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_041",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_043",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_044",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_040",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_042",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_044",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_045",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_023",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_041",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_043",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_008",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_045",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_046",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_042",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_044",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_043",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_047",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_046",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_024",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_044",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_045",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_048",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_047",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_045",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_046",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_025",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_009",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_049",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_046",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_047",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_048",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_000",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L2_049",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_047",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_048",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_001",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_000",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_048",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_026",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_049",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_flip_002",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L2_049",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_001",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_003",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_027",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_000",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_000",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_002",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_004",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_001",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_001",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_003",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_010",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_005",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_028",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_002",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_004",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_002",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_006",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_003",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_007",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_030",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_005",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_003",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_004",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_006",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_005",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_008",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_004",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_009",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_flip_006",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_007",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_031",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_flip_005",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_007",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_011",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_010",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_flip_008",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_008",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_006",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_011",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_009",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_009",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_032",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_012",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_007",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_010",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_010",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_011",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_008",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_013",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_011",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_012",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_033",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_flip_009",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_014",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_013",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_012",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_014",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_012",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_000",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_010",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_013",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_034",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_med_001",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_000",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_011",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_014",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_002",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_035",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_001",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_012",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_000",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_003",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_002",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_013",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_004",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_036",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_001",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_002",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_014",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_005",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_003",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_037",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_med_006",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_013",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_003",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_004",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_000",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_005",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_007",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_004",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_038",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_med_001",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_008",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_006",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_005",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_002",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_007",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_009",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_006",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_003",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_039",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_014",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_010",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_008",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_007",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_009",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_011",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_004",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_040",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_med_008",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_010",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_012",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_med_005",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_000",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_009",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_011",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_006",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_001",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_041",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_010",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_012",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_015",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_002",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_007",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_000",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_011",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_003",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_001",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_008",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_042",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_med_012",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_004",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_002",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_009",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_005",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_003",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_000",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_016",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_006",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_004",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_010",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_007",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_001",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_043",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_011",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_002",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_008",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_005",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_044",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_012",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_009",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_006",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_003",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_010",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_007",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_017",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_000",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_004",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_045",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_rev_011",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_008",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_001",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_005",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_000",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_009",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_002",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_006",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_010",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_046",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_003",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_011",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_007",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_001",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_004",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_008",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_018",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_005",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_009",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_002",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_047",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_006",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_010",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_007",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_048",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_011",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_008",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_019",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_num_003",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_009",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_000",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_049",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_010",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_001",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_004",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_num_000",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_011",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_002",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_003",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_000",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_num_000",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_004",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_num_001",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_005",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_005",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_002",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_001",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_num_006",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_003",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_006",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_004",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_020",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_007",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_num_001",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_005",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_002",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_num_006",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_008",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_007",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_num_007",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_009",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "llama-70b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L1_original",
+    "level": 1,
+    "mutation_type": "none",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_000",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_008",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_001",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_003",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_002",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_003",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_004",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_021",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_num_009",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "llama4-scout",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_004",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_num_002",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_008",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_022",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_005",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_005",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_006",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_007",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_008",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_009",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_006",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_010",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_num_009",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "llama-8b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_007",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_011",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_num_003",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_012",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_008",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_013",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_023",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_014",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_009",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_015",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_016",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_024",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_num_004",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_017",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_010",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_018",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_025",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_011",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_019",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_020",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_012",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_num_005",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_021",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_013",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_022",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_023",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_026",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_014",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_024",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_025",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_000",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_026",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_006",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_027",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_027",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_001",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_028",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_029",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_002",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_num_007",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_030",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_028",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_031",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_032",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_003",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_033",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_029",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_034",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_008",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_035",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_036",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_004",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_005",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_037",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_030",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_038",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_039",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_006",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_num_009",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "gpt-4o-mini",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_040",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_041",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_007",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_042",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_043",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_031",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_044",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_045",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_008",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_046",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_047",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_032",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_009",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_048",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_049",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_010",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_000",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_001",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_033",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_011",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_002",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_003",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_004",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_012",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_005",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_034",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_006",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_000",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_007",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_008",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_001",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_009",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_035",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_010",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_002",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_flip_011",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_012",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_013",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_036",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_014",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_003",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_000",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_004",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_med_001",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_002",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_005",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_037",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_003",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_006",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_004",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_007",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_med_005",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_038",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_006",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_007",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_039",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_008",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_008",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_009",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_009",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_040",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_010",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_010",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_011",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_041",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_011",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_med_012",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_000",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_042",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_000",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_001",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_002",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_003",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_004",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_num_001",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_043",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_005",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_006",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_007",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_rev_008",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_002",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_044",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_009",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_010",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_011",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_045",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_003",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_num_000",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_001",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_046",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_004",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_num_002",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_003",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 1,
+    "total": 1
+  },
+  {
+    "problem_id": "L2_047",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_005",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_004",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_048",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_006",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_005",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L2_049",
+    "level": 2,
+    "mutation_type": "surface",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_006",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_007",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_007",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_000",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_num_008",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_008",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_001",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_009",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "gpt-oss-120b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_002",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_num_009",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "qwen3-32b",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_003",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_004",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_005",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_006",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_007",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_008",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_009",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_flip_010",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_011",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_012",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_013",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_flip_014",
+    "level": 3,
+    "mutation_type": "flip_sign",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_000",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_med_001",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_med_002",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_med_003",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_med_004",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_med_005",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_med_006",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_med_007",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_med_008",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_med_009",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_med_010",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_med_011",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_med_012",
+    "level": 3,
+    "mutation_type": "add_mediator",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_000",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_001",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_rev_002",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_003",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_004",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  },
+  {
+    "problem_id": "L3_rev_005",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_006",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_007",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_rev_008",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_009",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_010",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_rev_011",
+    "level": 3,
+    "mutation_type": "reverse_edge",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_num_000",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_num_001",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_num_002",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_num_003",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 0,
+    "reasoning": 0,
+    "total": 0
+  },
+  {
+    "problem_id": "L3_num_004",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "gpt-5",
+    "response": "(recovered from log)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_num_005",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "gpt-5",
+    "response": "Q1: 0\nQ2: 4",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_num_006",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "gpt-5",
+    "response": "Q1: 0\nQ2: 16/3 \u2248 5.3333",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_num_007",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "gpt-5",
+    "response": "Q1: 0\nQ2: 28/3 (\u2248 9.3333)",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_num_008",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "gpt-5",
+    "response": "Q1: 0\nQ2: 0",
+    "correctness": 1,
+    "reasoning": 0,
+    "total": 1
+  },
+  {
+    "problem_id": "L3_num_009",
+    "level": 3,
+    "mutation_type": "numerical",
+    "model": "gpt-5",
+    "response": "Q1: Cov(F, D) = 14/9 \u2248 1.5556\nQ2: E[D | do(F = 4)] = 2/3 \u2248 0.6667",
+    "correctness": 1,
+    "reasoning": 1,
+    "total": 2
+  }
+]
